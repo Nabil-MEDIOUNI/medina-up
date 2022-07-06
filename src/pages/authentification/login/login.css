@@ -1,0 +1,105 @@
+.top_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.icon {
+  position: absolute;
+  top: 0.65rem;
+  left: 0.75rem;
+  color: #53565e;
+  font-size: 1rem;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  opacity: 0.8;
+}
+
+.visibility_icon {
+  position: absolute;
+  top: 0.65rem;
+  left: 'auto';
+  right: 0.75rem;
+  color: #53565e;
+  font-size: 1rem;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  opacity: 0.8;
+}
+
+@media (min-width: 500px) and (max-width: 1020px) {
+  .visibility_icon {
+    right: 3rem;
+  }
+}
+@media (min-width: 1021px) and (max-width: 1720px) {
+  .visibility_icon {
+    right: 4.5rem;
+  }
+}
+
+.input {
+  border-radius: 50px;
+  border: none;
+  box-shadow: 0px 0px 5px #d3d3d3;
+  width: 90%;
+  height: 35px;
+  outline: none;
+  padding-left: 38px;
+  transition: 0.3s ease-in-out;
+  opacity: 0.6;
+}
+
+.input:focus {
+  box-shadow: 0px 0px 5px #b8b8b8;
+  transition: 0.3s ease-in-out;
+}
+
+.input:focus + .icon {
+  color: #00aeff;
+  transition: 0.3s ease-in-out;
+}
+
+/*# sourceMappingURL=login.css.map */
+
+.copyright {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  white-space: nowrap;
+  margin-bottom: 0.5rem;
+}
+
+.seperator {
+  font-family: "Lato";
+  color: #000;
+  opacity: 0.15;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.seperator::before,
+.seperator::after {
+  content: '';
+  display: block;
+  height: 0.09em;
+  min-width: 30vw;
+}
+
+.seperator::before {
+  background: linear-gradient(to right, rgba(240,240,240,1), rgb(0, 0, 0));
+  margin-right: 2vh;
+}
+
+.seperator::after {
+  background: linear-gradient(to left, rgba(240,240,240,1), rgb(0, 0, 0));
+  margin-left: 2vh;
+} 

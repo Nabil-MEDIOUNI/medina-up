@@ -1,0 +1,106 @@
+import { makeStyles } from '@material-ui/core/styles';
+
+const useStyles = makeStyles((theme) => ({
+  container: {
+    position: 'fixed',
+    marginTop: -80,
+    height: '130%',
+    width: '100%',
+    backgroundColor: '#f7f7f7',
+    zIndex: -1,
+  },
+  morebtn: {
+    fontSize: 24,
+    color: '#3a3a3a',
+  },
+  card: {
+    width: '80%',
+    margin: '0 auto 18px auto',
+    padding: '12px 0px',
+    background: 'white',
+    borderRadius: 4,
+    boxShadow: '0px 0px 10px #00000029',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+  },
+  surname: {
+    opacity: 0.8,
+    fontWeight: 'bold',
+    color: 'black',
+    textTransform: 'capitalize',
+    whiteSpace: 'nowrap',
+    overflow: 'hidden',
+    width: '100%',
+    textOverflow: 'ellipsis',
+  },
+  pplDtl: {
+    fontSize: 11,
+    opacity: 0.6,
+    color: 'black',
+    textTransform: 'capitalize',
+    whiteSpace: 'nowrap',
+    overflow: 'hidden',
+    width: '100%',
+    marginLeft: theme.spacing(0.25),
+    marginTop: theme.spacing(0.25),
+    textOverflow: 'ellipsis',
+    lineHeight: 'inherit',
+  },
+  pplDtlIcon: {
+    opacity: 0.5,
+  },
+  wrap: {
+    whiteSpace: 'nowrap',
+    overflow: 'hidden',
+    textOverflow: 'ellipsis',
+    marginLeft: 8,
+  },
+  model: {
+    boxShadow: '0px 1px 10px rgba(0, 0, 0, 0.15)',
+    borderRadius: 4,
+    background: 'white',
+    right: '23%',
+    padding: '4px 10px',
+  },
+  seperator: {
+    height: '45%',
+    padding: '10px 0.5px',
+    background: '#eaeaea',
+  },
+  editIcon: {
+    color: '#30C39E',
+    marginRight: theme.spacing(1),
+  },
+  deleteIcon: {
+    color: '#EB5A44',
+    marginRight: theme.spacing(1),
+  },
+  emptyListTypo: {
+    textAlign: 'center',
+    fontSize: 13,
+    opacity: 0.7,
+  },
+  filterList: {
+    position: 'fixed',
+    top: '10%',
+    right: '10%',
+    borderRadius: 5,
+    zIndex: 99999,
+    backgroundColor: 'white',
+    boxShadow: '1px 1px 10px #dbdbdb',
+  },
+  paginationInput: {
+    outline: 'none',
+    border: 'none',
+    background: '#f1f1f1',
+    width: '5%',
+    textAlign: 'center',
+    padding: 5,
+    borderRadius: 4,
+    marginLeft: 10,
+    boxShadow: '0px 0px 10px #d2d2d2',
+  },
+}));
+
+export default useStyles;

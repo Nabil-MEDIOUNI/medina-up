@@ -1,0 +1,43 @@
+.pagenotfound_container {
+	margin: 0; padding: 0;
+	background-color: #09334f;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+#yetiSVG {
+	width: 100%;
+	position: absolute; top: 0; left: 0;
+	overflow: hidden;
+}
+#lightSVG {
+	width: 100%;
+	position: absolute; top: 0; left: 0;
+	overflow: visible;
+}
+.content {
+    position: absolute;
+    bottom: 3rem;
+    left: 2rem;
+    width: 80%;
+    z-index: 10;
+	font-family: 'Source Sans Pro', sans-serif; color: #FFF;
+}
+.link_to_home{
+	text-decoration: none;
+	color: white;
+	border: 1px solid white;
+	padding: 10px;
+	outline: none;
+	border-radius: 5px;
+}
+
+.content_right{
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	font-family: Lato;
+	font-weight: bolder;
+	font-size: 1rem;
+	font-style: italic;
+}

@@ -1,0 +1,130 @@
+const InputFields = (currentEP, handleMany, setEP, product) => [
+  {
+    label: 'EXPA ID',
+    type: 'text',
+    dfltVl: currentEP.EXPAID,
+    onChange: handleMany(currentEP, setEP, 'EXPAID'),
+  },
+  {
+    label: 'Email',
+    type: 'text',
+    dfltVl: currentEP.Email,
+    onChange: handleMany(currentEP, setEP, 'Email'),
+  },
+  {
+    label: 'Background',
+    type: 'text',
+    onChange: handleMany(currentEP, setEP, 'Background'),
+    canview: product === 'IGT',
+  },
+  {
+    label: 'SUBProduct',
+    type: 'text',
+    onChange: handleMany(currentEP, setEP, 'SUBProduct'),
+    canview: product === 'IGT',
+  },
+  {
+    label: 'CV',
+    type: 'text',
+    onChange: handleMany(currentEP, setEP, 'CV'),
+    canview: product === 'IGT',
+  },
+  {
+    label: 'OPPmanager',
+    type: 'text',
+    onChange: handleMany(currentEP, setEP, 'OPPmanager'),
+    canview: product === 'IGT',
+  },
+  {
+    label: 'Whatsup Number',
+    type: 'text',
+    dfltVl: currentEP.WhatsupNumber,
+    onChange: handleMany(currentEP, setEP, 'WhatsupNumber'),
+  },
+  {
+    label: 'if Rejected Why?',
+    type: 'text',
+    dfltVl: currentEP.ifRejectedWhy,
+    onChange: handleMany(currentEP, setEP, 'ifRejectedWhy'),
+  },
+  {
+    label: 'Home MC',
+    type: 'text',
+    dfltVl: currentEP.HomeMC,
+    onChange: handleMany(currentEP, setEP, 'HomeMC'),
+  },
+  {
+    label: 'Home LC',
+    type: 'text',
+    dfltVl: currentEP.HomeLC,
+    onChange: handleMany(currentEP, setEP, 'HomeLC'),
+  },
+  {
+    label: 'SDG Number',
+    type: 'text',
+    dfltVl: currentEP.SDGNumber,
+    onChange: handleMany(currentEP, setEP, 'SDGNumber'),
+  },
+  {
+    label: 'Project Name',
+    type: 'text',
+    dfltVl: currentEP.ProjectName,
+    onChange: handleMany(currentEP, setEP, 'ProjectName'),
+  },
+  {
+    label: 'Opportunity Name',
+    type: 'text',
+    dfltVl: currentEP.OpportunityName,
+    onChange: handleMany(currentEP, setEP, 'OpportunityName'),
+  },
+  {
+    label: 'CONTACTED',
+    type: 'text',
+    dfltVl: currentEP.CONTACTED,
+    onChange: handleMany(currentEP, setEP, 'CONTACTED'),
+  },
+  {
+    label: 'Interview Date',
+    type: 'text',
+    dfltVl: currentEP.InterviewDate,
+    onChange: handleMany(currentEP, setEP, 'InterviewDate'),
+  },
+  {
+    label: 'TIME',
+    type: 'text',
+    dfltVl: currentEP.TIME,
+    onChange: handleMany(currentEP, setEP, 'TIME'),
+  },
+  {
+    label: 'Intreview output',
+    type: 'text',
+    dfltVl: currentEP.Intreviewoutput,
+    onChange: handleMany(currentEP, setEP, 'Intreviewoutput'),
+  },
+  {
+    label: 'Applied Date',
+    type: 'text',
+    dfltVl: currentEP.APLDate,
+    onChange: handleMany(currentEP, setEP, 'APLDate'),
+  },
+  {
+    label: 'Approved Date',
+    type: 'text',
+    dfltVl: currentEP.APDDate,
+    onChange: handleMany(currentEP, setEP, 'APDDate'),
+  },
+  {
+    label: 'Realized Date',
+    type: 'text',
+    dfltVl: currentEP.REDate,
+    onChange: handleMany(currentEP, setEP, 'REDate'),
+  },
+  {
+    label: 'Finished Date',
+    type: 'text',
+    dfltVl: currentEP.FinDate,
+    onChange: handleMany(currentEP, setEP, 'FinDate'),
+  },
+];
+
+export default InputFields;

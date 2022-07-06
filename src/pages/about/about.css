@@ -1,0 +1,87 @@
+.lkolflkol {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.lteli{
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.mostatil-lowl {
+  background:  #ffffff;
+  width: 99.%;
+  height: 45%;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  font-size: 20pt;
+  border: 1px solid;
+  border-color: #037ef3;
+  top: 1rem;
+  
+}
+
+.img_lowla{
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.ahaya-limg{
+  width: 13.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.mostatil-theni{
+  margin-top: 1rem;
+
+}
+
+.titmosta{
+  display: flex;
+}
+
+.westani{
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5rem;
+}
+
+.mostatil-asfer{
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background: #ffc845;
+  width: 1.5rem;
+}
+
+.titlino{
+  FONT-WEIGHT: bold;
+  font-family: 'lato';
+  color: #30c39e;
+  text-shadow: -0.5px 1px 1px #037ef3;
+  margin-left: 0.5rem
+}
+
+.mostatil-gris{
+  border-radius: 8px;
+  background: #caccd1;
+  margin: 1rem;
+}
+
+.faqra{
+  margin: 0.5rem;
+  font-family: 'lato';
+  font-size: 14px;
+}
+
+.lekhra{
+  font-size: x-small;
+  align-self: center;
+  font-family: 'lato';
+  position: absolute;
+  bottom: 10px;
+}
+
+
+  
